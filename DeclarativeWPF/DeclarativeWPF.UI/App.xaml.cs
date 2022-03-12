@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using DeclarativeWPF.UI.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -22,6 +23,9 @@ namespace DeclarativeWPF.UI
             this.Exit += DisposeHosting;
             this.DispatcherUnhandledException += DisposeHosting;
             this.SessionEnding += DisposeHosting;
+
+            MainWindow = new MainWindow();
+            MainWindow.Show();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) => Host

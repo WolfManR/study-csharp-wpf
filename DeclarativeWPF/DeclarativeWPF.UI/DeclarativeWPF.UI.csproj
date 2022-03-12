@@ -13,4 +13,8 @@
     <PackageReference Include="Thundire.MVVM.MicrosoftDIContainer" Version="0.0.3-gamma" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 </Project>
