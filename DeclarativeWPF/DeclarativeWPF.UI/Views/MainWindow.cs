@@ -1,7 +1,7 @@
 ﻿using CSharpMarkup.Wpf;
 
 using System.Windows.Media;
-
+using DeclarativeWPF.UI.Resources;
 using static CSharpMarkup.Wpf.Helpers;
 
 namespace DeclarativeWPF.UI.Views;
@@ -20,7 +20,7 @@ partial class MainWindow
                 .VCenter()
                 .HCenter(),
 
-            Button("Click me!")
+            Button("Click me!").Style(ButtonStyles.SymbolButton)
                 .Grid_Column(0)
             )
             .UI;
