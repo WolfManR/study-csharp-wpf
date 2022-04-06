@@ -11,9 +11,9 @@ public class StringToFloat : IValueConverter
         if (value == null) return 0f;
         if (parameter != null && (string)parameter == "double")
         {
-            return double.Parse((string)value);
+            return double.Parse((string)value, culture);
         }
-        return float.Parse((string)value);
+        return float.Parse((string)value, culture);
     }
 
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
