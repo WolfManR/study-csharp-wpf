@@ -12,6 +12,6 @@ public static class ButtonStyles
     private static Style<Button>? _symbolButton;
     public static Style<Button> SymbolButton => _symbolButton ??= new Style<Button>(
         (Button_UI.FontFamilyProperty, new FontFamily("Segoe MDL2 Assets")),
-        (Button_UI.ForegroundProperty, Green)
+        (Button_UI.ForegroundProperty, SolidColorBrush(Green))
         );
 }

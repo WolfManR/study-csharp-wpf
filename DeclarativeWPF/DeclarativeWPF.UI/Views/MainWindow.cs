@@ -3,6 +3,7 @@
 using System.Windows.Media;
 using DeclarativeWPF.UI.Resources;
 using static CSharpMarkup.Wpf.Helpers;
+using static System.Windows.Media.Colors;
 
 namespace DeclarativeWPF.UI.Views;
 
@@ -15,7 +16,7 @@ partial class MainWindow
 
             TextBlock("Hello World!")
                 .FontSize(36)
-                .Foreground(Colors.Black)
+                .Foreground(Black)
                 .Grid_Column(1)
                 .VCenter()
                 .HCenter(),
