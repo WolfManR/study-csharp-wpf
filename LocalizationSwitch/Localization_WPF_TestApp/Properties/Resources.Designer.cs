@@ -61,15 +61,6 @@ namespace Localization_WPF_TestApp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to FlowDirection.RightToLeft.
-        /// </summary>
-        public static string FlowDirection {
-            get {
-                return ResourceManager.GetString("FlowDirection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Age.
         /// </summary>
         public static string MainWindow_Age {

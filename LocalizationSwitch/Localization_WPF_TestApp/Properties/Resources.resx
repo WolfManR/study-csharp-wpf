@@ -147,7 +147,4 @@
   <data name="MainWindow.Clear" xml:space="preserve">
     <value>Clear</value>
   </data>
-  <data name="FlowDirection" xml:space="preserve">
-    <value>FlowDirection.RightToLeft</value>
-  </data>
 </root>

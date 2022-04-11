@@ -147,7 +147,4 @@
   <data name="MainWindow.Language" xml:space="preserve">
     <value>Локализация</value>
   </data>
-  <data name="FlowDirection" xml:space="preserve">
-    <value>FlowDirection.LeftToRight</value>
-  </data>
 </root>
