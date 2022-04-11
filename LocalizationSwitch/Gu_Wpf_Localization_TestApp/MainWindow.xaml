@@ -4,9 +4,29 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gu_Wpf_Localization_TestApp"
+        xmlns:l="http://gu.se/Localization"
+        xmlns:properties="clr-namespace:Gu_Wpf_Localization_TestApp.Properties"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="400">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
 
+        <l:LanguageSelector AutogenerateLanguages="True" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"/>
+        <Menu Grid.Row="0" Grid.Column="0">
+            <MenuItem Header="{l:Static properties:Resources.View_MainWindow_File}"/>
+            <MenuItem Header="{l:Static properties:Resources.View_MainWindow_Exit}"/>
+        </Menu>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock TextWrapping="Wrap" Text="{l:Static properties:Resources.View_MainWindow_Label1}"/>
+            <Button Content="{l:Static properties:Resources.View_MainWindow_Button1}"/>
+            <ListBox Height="80"/>
+        </StackPanel>
     </Grid>
 </Window>
