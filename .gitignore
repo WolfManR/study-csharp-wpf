@@ -5,3 +5,4 @@
 [Bb]in
 
 *.csproj.user
+*.sln.DotSettings.user
