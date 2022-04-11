@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalizationSwitch", "Local
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localization_WPF_TestApp", "LocalizationSwitch\Localization_WPF_TestApp\Localization_WPF_TestApp.csproj", "{2B8131C9-F1FA-42CF-AEE9-0923A2A70344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu_Wpf_Localization_TestApp", "LocalizationSwitch\Gu_Wpf_Localization_TestApp\Gu_Wpf_Localization_TestApp.csproj", "{39717164-A651-4317-BA1D-21424DE7222F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{2B8131C9-F1FA-42CF-AEE9-0923A2A70344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B8131C9-F1FA-42CF-AEE9-0923A2A70344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B8131C9-F1FA-42CF-AEE9-0923A2A70344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39717164-A651-4317-BA1D-21424DE7222F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39717164-A651-4317-BA1D-21424DE7222F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39717164-A651-4317-BA1D-21424DE7222F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39717164-A651-4317-BA1D-21424DE7222F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2B8131C9-F1FA-42CF-AEE9-0923A2A70344} = {BB52570B-7C58-4A3C-9605-BF31E45DF686}
+		{39717164-A651-4317-BA1D-21424DE7222F} = {BB52570B-7C58-4A3C-9605-BF31E45DF686}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A550E865-4A2D-4685-8E1A-19AD6309AC0B}
