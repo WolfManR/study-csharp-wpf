@@ -22,7 +22,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gu_Wpf_Localization_TestApp.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,9 +61,36 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fail:  Lorem Ipsum.
+        /// </summary>
+        public static string Local_Fail {
+            get {
+                return ResourceManager.GetString("Local_Fail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success:  Lorem Ipsum.
+        /// </summary>
+        public static string Local_Success {
+            get {
+                return ResourceManager.GetString("Local_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warning:  Lorem Ipsum.
+        /// </summary>
+        public static string Local_Warning {
+            get {
+                return ResourceManager.GetString("Local_Warning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lorem.
         /// </summary>
-        internal static string View_MainWindow_Button1 {
+        public static string View_MainWindow_Button1 {
             get {
                 return ResourceManager.GetString("View_MainWindow_Button1", resourceCulture);
             }
@@ -72,7 +99,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Exit.
         /// </summary>
-        internal static string View_MainWindow_Exit {
+        public static string View_MainWindow_Exit {
             get {
                 return ResourceManager.GetString("View_MainWindow_Exit", resourceCulture);
             }
@@ -81,7 +108,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
-        internal static string View_MainWindow_File {
+        public static string View_MainWindow_File {
             get {
                 return ResourceManager.GetString("View_MainWindow_File", resourceCulture);
             }
@@ -90,7 +117,7 @@ namespace Gu_Wpf_Localization_TestApp.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Lorem.
         /// </summary>
-        internal static string View_MainWindow_Label1 {
+        public static string View_MainWindow_Label1 {
             get {
                 return ResourceManager.GetString("View_MainWindow_Label1", resourceCulture);
             }

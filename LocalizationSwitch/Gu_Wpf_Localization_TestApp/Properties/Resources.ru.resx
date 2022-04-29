@@ -129,7 +129,13 @@
   <data name="View_MainWindow_Button1" xml:space="preserve">
     <value>Лорем</value>
   </data>
-  <data name="View_FlowDirection" xml:space="preserve">
-    <value>FlowDirection.RightToLeft</value>
+  <data name="Local_Success" xml:space="preserve">
+    <value>Выполнено:  Лорем ипсум</value>
+  </data>
+  <data name="Local_Fail" xml:space="preserve">
+    <value>Провал:  Лорем ипсум</value>
+  </data>
+  <data name="Local_Warning" xml:space="preserve">
+    <value>Предупреждение: Лорем ипсум</value>
   </data>
 </root>

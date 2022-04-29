@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Gu.Wpf.Localization" Version="6.7.0" />
+    <PackageReference Include="Thundire.MVVM.WPF" Version="0.0.3-gamma" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,8 +22,11 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
 

@@ -129,4 +129,13 @@
   <data name="View_MainWindow_Button1" xml:space="preserve">
     <value>Lorem</value>
   </data>
+  <data name="Local_Success" xml:space="preserve">
+    <value>Success:  Lorem Ipsum</value>
+  </data>
+  <data name="Local_Fail" xml:space="preserve">
+    <value>Fail:  Lorem Ipsum</value>
+  </data>
+  <data name="Local_Warning" xml:space="preserve">
+    <value>Warning:  Lorem Ipsum</value>
+  </data>
 </root>
